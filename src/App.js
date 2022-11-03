@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/greet/Greet';
+import Counter from './components/counter/Counter';
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <h1>iam Kiran</h1>
       </header>
+      <Greet/>
+      <Counter/>
     </div>
   );
 }
